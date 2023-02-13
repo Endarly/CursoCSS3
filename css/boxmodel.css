@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+/* para que no se amplie la imagen */
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid black;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    width: 300px;
+    height: 150px;
+    /* centrar */
+    margin: 0 auto;
+
+}
+
+.box1 {
+    background: steelblue;
+    /* si le quiero colocar un border solido y transparente */
+    border: 1px solid transparent;
+    /* margin-top: right botton left; */
+    /* margin: 50px 30px 25px 30px; */
+    /* margin: 40px 80px; */
+    /* auto para centrar el box */
+    margin: 0 auto;
+}
+
+.box2 {
+    /* background: tomato;
+    margin-top: 30px; */ 
+    /* box-sizing: border-box; */
+    /* padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 40px; */
+    padding: 20px 30px 40px 10px;
+    background-color: crimson;
+    color:  white;
+    /* para separar los elementos */
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+    /* nos sirve para respetar el ancho del elemento de la caja, para que respete */
+}

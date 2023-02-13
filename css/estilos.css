@@ -1,0 +1,43 @@
+/* si quiero modificar un atributo, se debe colocar en corchetes  [ ] */
+
+[class] {
+    font-size: 6px;
+}
+
+[id] {
+    font-size: 6px;
+}
+
+*[id] {
+    font-size: 6px;
+}
+
+/* elementos tengan un id o clase */
+h2[id] {
+    font-size: 6px;
+}
+
+/* si yo quiero el elemento a tenga el atributo ref cambie */
+a[href] {
+    font-size: 6px;
+}
+
+/* modifica los elemtos exactos */
+[href="https://endarly.com"] {
+    color: darkolivegreen;
+}
+
+/* modifica los elemtos que están al pincipio de  con el signo potencias ^ alt+94*/
+[href^="https"] {
+    color: darkolivegreen;
+}
+
+/* modifica los elemtos que están al final de  con el signo dolar $*/
+[href$="org"] {
+    color: rgb(51, 47, 107);
+}
+
+/* modifica los elemtos que contengan esa cadena de carátres con el signo * $*/
+[href*="alex"] {
+    color: rgba(31, 23, 138, 0.355);
+}

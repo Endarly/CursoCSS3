@@ -1,0 +1,63 @@
+/* a 2 o mas elementos darles propiedades  */
+
+h2,a ,p{
+ color: indigo;
+}
+
+h2, h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+.contenedor>p{
+    color: rgb(226, 43, 208);
+}
+
+.contenedor>div>p{
+    color: rgb(83, 226, 43);
+}
+
+/* un elemento nav que contiene la clase .contenedor */
+nav.contenedor{
+    background-color: brown;
+}
+
+/* un elemento nav que contiene la clase .contenedor */
+nav.contenedor.titulo{
+    background-color: rgb(77, 42, 165);
+}
+
+nav .contenedor{
+    background-color: rgb(67, 165, 42);
+}
+
+/* Quitar el subrayado a todos los elementos a */
+.contenedor a{
+    text-decoration: none;
+    color: firebrick ;
+}
+
+/* solo va a seleccionar al selector que son hijos directos */
+.contenedor>a{
+    font-size: 20px;
+    /* negrita */
+    font-weight: bold;
+}
+
+/* selector de hermano adyacente, sólo al siguiente */
+/* en este acso el que se va a modificar es el elemento p que es hermano de h2 */
+/* que estén en la misma dirección, que sean hermanos  */
+h2+p{
+    color: gold;
+}
+
+/* va a seleccionar a todos lo hermanos que tenga ese elemento la virgulilla alt 126 */
+h2~p{
+    color: rgb(210, 123, 9);
+}
+
+/* agregar un color indigo a todos los parrafos que estén despues del h3 */
+h3~p{
+    color: indigo;
+}
+

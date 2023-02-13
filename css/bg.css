@@ -1,0 +1,6 @@
+.bg{
+    opacity: 1;
+    background-image: radial-gradient();
+    background-size: 28px 28px;
+    background-position: 0 0,14px 14px;
+}

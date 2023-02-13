@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enlaces {
+    /* para pasar un elemento en linea a bloque */
+    display: inline-block;
+    /* para quitar el subrayado */
+    text-decoration: none;
+    background: crimson;
+    color: white;
+    /* padding ancho de adentro */
+    padding: 30px 20px;
+}
+
+.block {
+    /* para desaparecer el elemento */
+    display: none;
+    opacity: 0;
+}
