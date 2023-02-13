@@ -322,7 +322,7 @@ course_about--left{
 /* footer */
 .footer{
     position: relative;
-    --padding-container:160px 0 50px;
+    /* --padding-container:200px 0 50px; */
 }
 
 .footer::before{
@@ -350,7 +350,7 @@ course_about--left{
 }
 
 .footer_picture{
-    margin: 0;
+    margin: 10%;
 }
 
 .footer_img{
